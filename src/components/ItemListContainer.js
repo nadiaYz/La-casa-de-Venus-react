@@ -1,10 +1,10 @@
 import React from 'react'
 import './Greeting.css'
 
-const Greeting = ()  => {
+export const ItemListContainer = ({ greeting })  => {
     return (
-        <div className='greeting'>Bienvenidos</div>
+        <div className='greeting'>{greeting}</div>
     )
 }
 
-export default Greeting;
+export default ItemListContainer;
