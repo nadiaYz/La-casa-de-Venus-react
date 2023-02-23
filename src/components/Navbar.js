@@ -11,7 +11,7 @@ const Navbar = ()  => {
                     <a href="#menúP"> Menú principal </a>
                     <a href="#closet"> Clóset </a>
                     <a href="#accesorios"> Accesorios </a>
-                    <a href="#infoenvios"> Info de envíos </a>
+                    <a href="#infoenvios"> Zapatos </a>
                 </nav>
                 <div>
                     <Carrito />

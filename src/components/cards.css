@@ -1,0 +1,49 @@
+.productoDiv {
+    margin: 40px 28px 40px 28px;
+    padding: 20px 20px 20px 20px ;
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    width: 450px;
+    box-shadow: 0 5px 10px #956A4e;
+    background: radial-gradient(circle, rgba(194,225,255,1) 27%, rgba(205,180,219,1) 96%);
+}
+
+.contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #FAF5EF;
+}
+
+.itemImg {
+    height: 340px;
+}
+
+.nombreItem {
+    padding: 14px 0 5px 0;
+    font-size: 1.7rem;
+    color: hsl(0, 0%, 30%);
+    font-weight: bold
+}
+
+.precioDiv {
+    font-size: 1.2rem;
+    color: hsl(0, 0%, 32%);
+    font-weight: 530;
+    padding: 0 0 10px 0;
+}
+
+.detallesItem {
+    background-color: #CDB4DB;
+    height: 30px;
+    width: 80px;
+    font-size: 1.5rem;
+    color: hsl(0, 0%, 32%);
+    font-weight: 530;
+    border-radius: 12%;
+    box-shadow: 0 4px 8px #956a4ed1;
+    cursor: pointer;
+}

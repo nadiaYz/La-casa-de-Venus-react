@@ -1,0 +1,192 @@
+[
+    {
+        "id": "1",
+        "item": "Playera a rayas",
+        "img":"/assets/img/rp1.png",
+        "precio":"179 mxn",
+        "descripcion":"Camiseta corta de cuello redondo y manga corta.",
+        "composicion":"100% algodón",
+        "color":"Amarillo Daisy",
+        "stock":"5"
+    },{
+        "id": "2",
+        "item": "Zapatillas casuales",
+        "img":"/assets/img/rz1.png",
+        "precio":"799 mxn",
+        "descripcion":"Zapatillas básicas de mujer. Cierre mediante cordones.",
+        "composicion":"100% poliéster",
+        "color":"Blanco",
+        "stock":"8"
+    },{
+        "id": "3",
+        "item": "Falda tablas",
+        "img":"/assets/img/rp2.png",
+        "precio":"318mxn",
+        "descripcion":"Falda mini de tiro alto. Detalle de tablas. Cierre lateral con cremallera invisible.",
+        "composicion":"65% poliéster, 32% viscosa, 3% elastano",
+        "color":"Negro",
+        "stock":"3"
+    },{
+        "id": "4",
+        "item": "Collar corazón",
+        "img":"/assets/img/ra1.png",
+        "precio":"239 mxn",
+        "descripcion":"Collar mix metal con charm corazón.",
+        "composicion":"70% hierro, 30% zinc",
+        "color":"Dorado",
+        "stock":"2"
+    },{
+        "id": "5",
+        "item": "Botines altos",
+        "img":"/assets/img/rz2.png",
+        "precio":"1299 mxn",
+        "descripcion":"Botines con tacón de suela tipo track. Detalle de listones en la parte delantera.",
+        "composicion":"70% poliuretano, 17% poliéster, 13% elastodieno",
+        "color":"Negro",
+        "stock":"4"
+    },{
+        "id": "6",
+        "item": "Gorra bucket",
+        "img":"/assets/img/ra2.png",
+        "precio":"399 mxn",
+        "descripcion":"Bucket denim lavado con bordado.",
+        "composicion":"100% algodón",
+        "color":"Negro",
+        "stock":"7"
+    },{
+        "id": "7",
+        "item": "Vestido corto tirantes",
+        "img":"/assets/img/rp3.png",
+        "precio":"229 mxn",
+        "descripcion":"Vestido corto satinado con cuello corazón y tirantes.",
+        "composicion":"97% poliéster, 3% elastano",
+        "color":"Verde Moss",
+        "stock":"8"
+    },{
+        "id": "8",
+        "item": "Zapatos tacón grueso",
+        "img":"/assets/img/rz3.png",
+        "precio":"899 mxn",
+        "descripcion":"Zapatos de tacón grueso: 8,5 cm. Con cierre de moño en el tobillo.",
+        "composicion":"100% poliéster",
+        "color":"Rosa Nude",
+        "stock":"2"
+    },{
+        "id": "9",
+        "item": "Trench largo",
+        "img":"/assets/img/rp4.png",
+        "precio":"1299 mxn",
+        "descripcion":"Trench largo fluido con botones, cuello solapa, de manga caida y larga.",
+        "composicion":"57% lana,43% poliéster",
+        "color":"Café Peanut",
+        "stock":"5"
+    },{
+        "id": "10",
+        "item": "Falda mini",
+        "img":"/assets/img/rp5.png",
+        "precio":"449 mxn",
+        "descripcion":"Falda mini de tiro alto con cinturilla elastica. Detalle abertura en lateral.",
+        "composicion":"66% viscosa, 29% poliamida, 5% elastano",
+        "color":"Negro",
+        "stock":"2"
+    },{
+        "id": "11",
+        "item": "Set de clips",
+        "img":"/assets/img/ra3.png",
+        "precio":"449 mxn",
+        "descripcion":"Clips de pelo de colores.",
+        "composicion":"53% hierro, 47% polipropileno",
+        "color":"Arcoiris pastel",
+        "stock":"9"
+    },{
+        "id": "12",
+        "item": "Cazadora biker",
+        "img":"/assets/img/rp6.png",
+        "precio":"999 mxn",
+        "descripcion":"Cazadora tipo biker con cuello pico solapas y manga larga. Cierre con botones.",
+        "composicion":"100% piel ovina",
+        "color":"Negro",
+        "stock":"6"
+    },{
+        "id": "13",
+        "item": "Coletero grande",
+        "img":"/assets/img/ra4.png",
+        "precio":"179 mxn",
+        "descripcion":"Coletero grande scrunchie.",
+        "composicion":"37% poliester, 63% organza",
+        "color":"Rosa Carnation pink",
+        "stock":"12"
+    },{
+        "id": "14",
+        "item": "Sudadera bordada",
+        "img":"/assets/img/rp7.png",
+        "precio":"743 mxn",
+        "descripcion":"Sudadera amplia de cuello redondo. Detalle de bordado en la parte frontal.",
+        "composicion":"59% poliéster, 41% algodón",
+        "color":"Azul Sky Blue",
+        "stock":"7"
+    },{
+        "id": "15",
+        "item": "Pendientes perla",
+        "img":"/assets/img/ra5.png",
+        "precio":"179 mxn",
+        "descripcion":"Pendiente de aro con perla.",
+        "composicion":"75% acrílico, 15% zinc, 10% hierro",
+        "color":"Dorado",
+        "stock":"5"
+    },{
+        "id": "16",
+        "item": "Falda skort cruzada",
+        "img":"/assets/img/rp8.png",
+        "precio":"599 mxn",
+        "descripcion":"Falda pantalón de tiro alto con detalle cruzado en la parte delantera.",
+        "composicion":"81% poliéster, 13% viscosa, 6% elastano",
+        "color":"Verde Laurel",
+        "stock":"4"
+    },{
+        "id": "17",
+        "item": "Tacones tipo sandalia",
+        "img":"/assets/img/rz4.png",
+        "precio":"1199 mxn",
+        "descripcion":"Sandalias de tacón: 10,8 cm. Cierre mediante hebilla atada al tobillo.",
+        "composicion":"100% poliuretano",
+        "color":"Negro",
+        "stock":"5"
+    },{
+        "id": "18",
+        "item": "Zapatillas de plataforma",
+        "img":"/assets/img/rz5.png",
+        "precio":"849 mxn",
+        "descripcion":"Zapatillas deportivas con combinación de materiales. Suela flatform.",
+        "composicion":"100% poliéstero",
+        "color":"Blanco Alabaster",
+        "stock":"6"
+    },{
+        "id": "19",
+        "item": "Vestido midi canalé",
+        "img":"/assets/img/rp9.png",
+        "precio":"699 mxn",
+        "descripcion":"Vestido slim midi de escote corazón y manga corta abullonada. Abertura en el bajo delantero.",
+        "composicion":"100% poliéster",
+        "color":"Negro",
+        "stock":"1"
+    },{
+        "id": "20",
+        "item": "Cazadora denim",
+        "img":"/assets/img/rp10.png",
+        "precio":"999 mxn",
+        "descripcion":"Cazadora denim oversize con cuello solapa y manga acabada en puño.",
+        "composicion":"100% algodón",
+        "color":"Azul Air Force deslavado",
+        "stock":"9"
+    },{
+        "id": "21",
+        "item": "Mocasines track",
+        "img":"/assets/img/rz6.png",
+        "precio":"1199 mxn",
+        "descripcion":"Mocasines con suela tipo track. Detalle de aplique en la parte frontal.",
+        "composicion":"80% poliéster, 20% algodón",
+        "color":"Negro",
+        "stock":"3"
+    }
+]
