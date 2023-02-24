@@ -1,10 +1,12 @@
 import React, { useEffect, useState } from 'react'
-import './Greeting.css'
+import '../components/Greeting.css'
 import Lista from './ItemList';
+import { useParams } from 'react-router-dom';
 
 export const ItemListContainer = ({ greeting })  => {
     const [productos, setProductos] = useState([]);
     const [error, setError] = useState(false)
+    const {name}= useParams();
 
     useEffect(() => {
     const obtenerProductos = async () => {

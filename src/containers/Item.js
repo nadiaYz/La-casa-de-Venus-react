@@ -1,5 +1,5 @@
 import React from "react";
-import './cards.css'
+import '../components/cards.css'
 
 const Item = ({producto}) => {
     return (

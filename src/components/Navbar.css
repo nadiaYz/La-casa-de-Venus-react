@@ -7,6 +7,10 @@
     transition: .2s linear;
 }
 
+a:visited {
+    color: inherit;
+}
+
 html{
     font-size: 62.5%;
     scroll-behavior: smooth;
@@ -30,6 +34,7 @@ html{
     font-size: 3rem;
     color: #333;
     font-weight: bolder;
+    cursor: pointer;
 }
 
 .logo span {

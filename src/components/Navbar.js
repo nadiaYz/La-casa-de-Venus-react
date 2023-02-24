@@ -1,20 +1,19 @@
 import React from 'react'
 import './Navbar.css'
 import Carrito from './CartWidget.js';
+import NavCategories from './NavCategories.js'
+import { Link } from 'react-router-dom';
 
 const Navbar = ()  => {
     return (
         <>
             <div className='navBarDiv'>
-                <a href="#" className='logo'><span>.</span> la casa de Venus <span>.</span></a>
+                <div className='logo'><Link to={'/'}><span>.</span> la casa de Venus <span>.</span></Link></div>
                 <nav className='navBar'>
-                    <a href="#menúP"> Menú principal </a>
-                    <a href="#closet"> Clóset </a>
-                    <a href="#accesorios"> Accesorios </a>
-                    <a href="#infoenvios"> Zapatos </a>
+                    <NavCategories />
                 </nav>
                 <div>
-                    <Carrito />
+                    <Link to={"/cart"}><Carrito /></Link>
                 </div>
             </div>
         </>
