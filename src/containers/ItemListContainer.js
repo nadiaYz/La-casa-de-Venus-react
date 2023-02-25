@@ -6,16 +6,26 @@ import { useParams } from 'react-router-dom';
 export const ItemListContainer = ({ greeting })  => {
     const [productos, setProductos] = useState([]);
     const [error, setError] = useState(false)
-    const {name}= useParams();
+    const { nombre, id }= useParams();
 
     useEffect(() => {
     const obtenerProductos = async () => {
         try {
-            const res = await fetch("./productos.json")
+            const res = await fetch("/productos.json")
             const data = await res.json()
-            setProductos(data);
+            if (nombre === undefined){
+                setProductos(data)
+            } else {
+                const categoriaFiltro = data.filter ( dato => {
+                    return dato.categoria === nombre
+                })
+                setProductos(categoriaFiltro);
+            }
         }
-        catch{setError(true)}
+        catch (e) {
+            console.log(e);
+            setError(true);
+        }
     }
     obtenerProductos();
     }, []);
@@ -33,7 +43,9 @@ export const ItemListContainer = ({ greeting })  => {
             )}
         </>
     ):(
+        <>
         <h1>Hubo un error</h1>
+        </>
     )}
     </>
     )
