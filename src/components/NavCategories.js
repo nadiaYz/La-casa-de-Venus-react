@@ -4,9 +4,9 @@ import { Link, NavLink } from "react-router-dom";
 
 const NavCategories = () => {
     const categories = [
-        {id: 1, name: "Clóset", route: "/categorias/Clóset"},
-        {id: 2, name: "Accesorios", route: "/categorias/Accesorios"},
-        {id: 3, name: "Zapatos", route: "/categorias/Zapatos"}
+        {id: 1, name: "Clóset", route: "/category/Clóset"},
+        {id: 2, name: "Accesorios", route: "/category/Accesorios"},
+        {id: 3, name: "Zapatos", route: "/category/Zapatos"}
     ]
     return (
         <nav className='navBar'>
