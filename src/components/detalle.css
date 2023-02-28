@@ -1,0 +1,65 @@
+.contenedorDetalle {
+    height: 84vh;
+    display: grid;
+    place-items: center;
+    background-color: #FAF5EF;
+}
+
+.cardDetalleDiv {
+    position: relative;
+    width: 500px;
+    height: min-content;
+    padding: 24px 24px 28px 24px;
+    border: 2px solid #e1e3e6;
+    border-radius: 20px;
+    background: rgb(255,175,204);
+    background: radial-gradient(circle, rgba(255,175,204,1) 14%, rgba(205,180,219,1) 75%);
+    box-shadow: 0 5px 10px #956A4e;
+}
+
+.nombreDetail {
+    color: #404d61;
+    font-size: 28px;
+}
+
+.descripcionDetail {
+    color: #757d8a;
+    font-size: 18px;
+}
+
+.cardDetalleDiv .itemDetailImg{
+    display: flex;
+    position: relative;
+    height: 300px;
+    border-radius: 12px;
+    margin: 22px auto;
+    overflow: hidden;
+    text-align: center;
+}
+
+.cardDetalleDiv .itemDetailImg img {
+    width: 100%;
+    height: 100%;
+    transition: .4s;
+}
+
+.cardDetalleDiv .detallesDiv {
+    text-align: center;
+}
+
+.cardDetalleDiv .detallesDiv .precioDetail{
+    font-weight: 600;
+    padding: 0 0 10px 0;
+    color: #404d61;
+    font-size: 20px;
+}
+
+.composicionDetail {
+    color: #757d8a;
+    font-size: 14px;
+}
+
+.colorDetail {
+    color: #757d8a;
+    font-size: 14px;
+}

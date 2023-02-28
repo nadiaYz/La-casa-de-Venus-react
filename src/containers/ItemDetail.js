@@ -1,15 +1,17 @@
 import React from "react";
+import '../components/detalle.css'
 
 const ItemDetail = ({ producto }) => {
     return (
-        <div className="productoDiv">
-            <img  className="itemDetail" src={producto.img} alt="" />
+        <div className="cardDetalleDiv">
             <h2 className="nombreDetail" >{producto.item}</h2>
-            <p className="precioDetail" >${producto.precio}</p>
-            <p className="detallesDetail">Detalles:</p>
-            <p className="descripcionDetail">Descripción: {producto.descripcion}</p>
-            <p className="composicionDetail" >Composición: {producto.composicion}</p>
-            <p className="colorDetail" >Color base: {producto.color}</p>
+            <p className="descripcionDetail">{producto.descripcion}</p>
+            <img className="itemDetailImg" src={producto.img} alt="" />
+            <div className="detallesDiv">
+                <p className="precioDetail" >${producto.precio}</p> 
+                <p className="composicionDetail" >Composición: {producto.composicion}</p>
+                <p className="colorDetail" >Color base: {producto.color}</p>
+            </div>
         </div>
     )
 };
