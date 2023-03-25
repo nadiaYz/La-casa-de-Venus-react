@@ -1,5 +1,6 @@
 import React from "react";
 import '../components/detalle.css'
+import ItemCount from "../components/ItemCount";
 
 const ItemDetail = ({ producto }) => {
     return (
@@ -12,6 +13,7 @@ const ItemDetail = ({ producto }) => {
                 <p className="composicionDetail" >Composición: {producto.composicion}</p>
                 <p className="colorDetail" >Color base: {producto.color}</p>
             </div>
+            <ItemCount />
         </div>
     )
 };

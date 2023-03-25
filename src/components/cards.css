@@ -14,7 +14,7 @@
 
 .productoDiv:hover {
     border-color: #FAF5EF;
-    transform: translateY(-10px);
+    transform: translateY(-16px);
     box-shadow: 0 5px 10px #956A4e;
 }
 
